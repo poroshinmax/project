@@ -30,12 +30,13 @@
   border-radius: 2px;
   background-color: var(--accent-color);
 
-  transform: scale(1);
+  transform: scaleX(1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    scale 2500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-nav.current {
   color: var(--accent-color);
+  transform: scale(0.1);
 }
 .header-connect {
   display: flex;
