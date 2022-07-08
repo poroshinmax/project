@@ -1,19 +1,7 @@
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
-}
-.aboun-benefits-section {
+.about-benefits-section {
   background-color: #ffffff;
 }
-.aboun-benefits-list {
+.about-benefits-list {
   display: flex;
 }
 
@@ -32,7 +20,7 @@
 .benefits-icon {
   margin: 0;
 }
-.aboun-benefits {
+.about-benefits {
   margin-bottom: 10px;
 
   font-weight: 700;
@@ -51,25 +39,25 @@
   color: #757575;
 }
 .benefits-title {
+  margin-bottom: 50px;
+  text-align: center;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+
   color: var(--h-text-color);
 }
 .img-about-benefits {
   padding-top: 0;
   background-color: #ffffff;
+  &.container {
+    display: flex;
+    padding: 0;
+  }
 }
 
-.img-about-benefits.container {
-  display: flex;
-  padding: 0;
-}
-.benefits-title {
-  text-align: center;
-  margin-bottom: 50px;
-}
 .img-benefits-list {
   display: flex;
   margin-left: -30px;
@@ -84,6 +72,7 @@
   flex-basis: calc((100% - 90px) / 3);
   margin-left: 30px;
 }
+
 .benefits-img-title {
   content: "";
   display: flex;

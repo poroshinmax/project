@@ -74,12 +74,13 @@
   fill: #ffffff;
 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    fill: #ffffff;
+  }
 }
-.footer-soc-link:hover,
-.footer-soc-link:focus {
-  background-color: var(--accent-color);
-  fill: #ffffff;
-}
+
 .footer-form {
   margin-left: 93px;
   display: flex;
@@ -96,7 +97,7 @@
 
   color: #ffffff;
 }
-.ff {
+.footer-label {
   width: 570px;
   position: relative;
   display: flex;

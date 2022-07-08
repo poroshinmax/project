@@ -42,11 +42,9 @@
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.hero-button:hover,
-.hero-button:focus,
-.hero-button-list:hover,
-.hero-button-list:focus {
-  cursor: pointer;
-  background-color: var(--accent-color);
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    background-color: var(--accent-color);
+  }
 }
